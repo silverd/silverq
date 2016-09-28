@@ -1,24 +1,25 @@
 {
-    "name": "aliyuncs/oss-sdk-php",
-    "description": "Aliyun OSS SDK for PHP",
-    "homepage": "http://www.aliyun.com/product/oss/",
+    "name": "silverd/silverq",
     "type": "library",
+    "description": "Queue Library for Yaf Framework",
+    "keywords": ["yaf", "queue"],
+    "homepage": "http://silverd.cn",
     "license": "MIT",
     "authors": [
         {
-            "name": "Aliyuncs",
-            "homepage": "http://www.aliyun.com"
+            "name": "silverd",
+            "email": "silverd29@gmail.com",
+            "homepage": "http://silverd.cn"
         }
     ],
     "require": {
-        "php":">=5.3"
+        "php": ">=5.3"
     },
-    "require-dev" : {
-        "phpunit/phpunit": "~4.0",
-        "satooshi/php-coveralls": "~1.0"
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
     },
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"OSS\\": "src/OSS"}
+        "psr-4": {"SilverQ\\": "src/SilverQ"}
     }
 }
