@@ -18,7 +18,6 @@
     "require-dev": {
         "phpunit/phpunit": "~4.0"
     },
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"SilverQ\\": "src/SilverQ"}
     }
